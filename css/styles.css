@@ -128,6 +128,14 @@ header {
   padding-top: 200px;
   padding-bottom: 200px;
   align-content: center;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 .hero-title {
@@ -225,7 +233,6 @@ header {
 .team-item {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
 
   flex-basis: calc((100% / 4) - 2 * 30px);
 }
@@ -304,6 +311,7 @@ header {
   color: var(--primary-title-color);
   background-color: var(--background-color-light);
   border: none;
+  border-radius: 4px;
   padding: 6px 22px;
 }
 .btn-portfolio:hover,
@@ -311,7 +319,9 @@ header {
   background-color: var(--accent-color);
   color: #ffffff;
   cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
 .portfolio-examples {
   display: flex;
   flex-wrap: wrap;
@@ -319,11 +329,18 @@ header {
   margin-bottom: -30px;
   justify-content: center;
 }
+
 .portfolio-items {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-bottom: 30px;
 }
+.portfolio-items:hover,
+.portfolio-items:focus {
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 .portfolio-items:nth-child(3n + 1) {
   margin-left: 0px;
 }
@@ -335,6 +352,7 @@ header {
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
 }
+
 .examples-title {
   font-weight: 700;
   font-size: 18px;
