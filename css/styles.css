@@ -236,6 +236,7 @@ header {
   margin-bottom: 50px;
 }
 .team-item {
+  background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
 
@@ -268,7 +269,7 @@ header {
   width: 44px;
   height: 44px;
   margin-bottom: 30px;
-  margin-left: 10px;
+  margin-right: 10px;
 }
 .social-item:last-child {
   margin-right: 0;
@@ -276,9 +277,7 @@ header {
 .social-link {
   width: 100%;
   height: 100%;
-
   border-radius: 50%;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -294,13 +293,31 @@ header {
 .social-link:hover .social-icon,
 .social-link:focus .social-icon {
   background-color: #2196f3;
+  fill: #ffffff;
 }
+/*--------------------------clients--------------------------------------*/
+.title-clients {
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+/*font-weight: 700;
+  font-size: 36px;
+  line-height: 1 16;
+  text-align: center;
+  color: var(--primary-title-color);
+  margin-bottom: 50px;*/
 /*---------------footer----------------------------------------------------------*/
 .footer {
   background-color: var(--background-color-dark);
 
   padding-top: 60px;
   padding-bottom: 60px;
+
+  display: flex;
+  align-items: baseline;
 }
 .logo-footer {
   font-family: Raleway, "sans-serif";
@@ -331,6 +348,56 @@ header {
 .footer-contacts:hover {
   color: var(--accent-color);
 }
+/*---присоединяйтесь---*/
+.social-title {
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/*  font-family: "roboto", "sans-serif";
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  background-color: #ffffff;*/
+.footer-social-list {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-social-item {
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+  /*margin-bottom: 30px;
+  */
+}
+.footer-social-item:last-child {
+  margin-right: 0;
+}
+.footer-social-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #44454e;
+}
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: #2196f3;
+}
+.footer-social-icon {
+  fill: #ffffff;
+}
+
+.footer-social-link:hover .footer-social-icon,
+.footer-social-link:focus .footer-social-icon {
+  background-color: #2196f3;
+}
+
 /*-----------------portfolio-------------------------------------------------------*/
 
 .section-portfolio {
