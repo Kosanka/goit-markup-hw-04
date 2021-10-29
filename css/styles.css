@@ -127,6 +127,7 @@ header {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+  display: flex;
 }
 
 .header-mail:focus,
@@ -144,6 +145,7 @@ header {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+  display: flex;
 }
 .header-tel:focus,
 .header-tel:hover {
@@ -216,15 +218,9 @@ header {
   height: 120px;
   background-color: #f5f4fa;
   margin-bottom: 30px;
-  justify-content: center;
-  align-items: center;
 }
 
 .advantage-icon {
-  display: flex;
-
-  justify-content: center;
-  align-items: center;
 }
 /*----------------*/
 .advantage-title {
@@ -436,7 +432,9 @@ header {
   color: var(--accent-color);
 }
 /*---присоединяйтесь---*/
-
+.footer-social {
+  margin-left: 70px;
+}
 .social-title {
   font-size: 14px;
   line-height: 1, 14;
@@ -444,6 +442,7 @@ header {
   text-transform: uppercase;
   color: #ffffff;
   margin-bottom: 20px;
+  margin-left: 70px;
 }
 
 .footer-social-list {
