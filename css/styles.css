@@ -210,7 +210,23 @@ header {
   display: flex;
   justify-content: space-between;
 }
+.advantage-icons {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+}
 
+.advantage-icon {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+/*----------------*/
 .advantage-title {
   font-weight: 700;
   font-size: 14px;
@@ -219,6 +235,7 @@ header {
   margin-bottom: 10px;
   width: 270px;
   text-transform: uppercase;
+  margin-top: 30px;
 }
 .advantage-text {
   font-size: 14px;
@@ -388,8 +405,7 @@ header {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.contacts-address {
-}
+
 .logo-footer {
   font-family: Raleway, "sans-serif";
   font-style: normal;
