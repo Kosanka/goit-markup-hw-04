@@ -214,14 +214,15 @@ header {
 }
 .advantage-icons {
   display: flex;
+  align-items: center;
+  justify-content: center;
   width: 270px;
   height: 120px;
   background-color: #f5f4fa;
+  border-radius: 4px;
   margin-bottom: 30px;
 }
 
-.advantage-icon {
-}
 /*----------------*/
 .advantage-title {
   font-weight: 700;
@@ -242,7 +243,6 @@ header {
 .work-container {
   padding-bottom: 0;
 }
-
 .work-title {
   font-weight: 700;
   font-size: 36px;
@@ -432,9 +432,7 @@ header {
   color: var(--accent-color);
 }
 /*---присоединяйтесь---*/
-.footer-social {
-  margin-left: 70px;
-}
+
 .social-title {
   font-size: 14px;
   line-height: 1, 14;
@@ -447,6 +445,7 @@ header {
 
 .footer-social-list {
   display: flex;
+  margin-left: 70px;
 }
 
 .footer-social-item {
