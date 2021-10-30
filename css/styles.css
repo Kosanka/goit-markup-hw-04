@@ -222,6 +222,10 @@ header {
   border-radius: 4px;
   margin-bottom: 30px;
 }
+.advantage-icon {
+  width: 70px;
+  height: 70px;
+}
 
 /*----------------*/
 .advantage-title {
