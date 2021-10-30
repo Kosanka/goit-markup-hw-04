@@ -146,6 +146,7 @@ header {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
   display: flex;
+  align-items: center;
 }
 .header-tel:focus,
 .header-tel:hover {
@@ -315,10 +316,13 @@ header {
   display: flex;
   justify-content: center;
 }
+.team-social {
+  margin-bottom: 30px;
+}
 .social-item {
   width: 44px;
   height: 44px;
-  margin-bottom: 30px;
+
   margin-right: 10px;
 }
 .social-item:last-child {
