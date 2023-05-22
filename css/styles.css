@@ -67,6 +67,9 @@ img {
     border-bottom: 1px solid #e7e9fc;
     padding-top: 24px;
     padding-bottom: 24px;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .page-header-container {
@@ -147,6 +150,10 @@ img {
     text-align: center;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/people-office.jpg);
     background-size: cover;
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
 }
 
 .hero-title {
@@ -188,12 +195,17 @@ img {
 
 /*=================== advantages ===================*/
 
-/*icon*/
+.advantages-picture-box {
+    display: flex;
+    align-items: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
 
 .advantages-picture-list {
     display: flex;
-    /* justify-content: center;
-    align-items: center; */
     gap: 24px;
     
 }
@@ -204,7 +216,7 @@ img {
     align-items: center;
     width: 264px;
     height: 112px;
-    background-color: #F4F4FD;
+    fill: #F4F4FD;
     flex-basis: calc((100% - 94px) / 4);
 }
 /**/
@@ -293,8 +305,9 @@ img {
 
 
 .team-title-box {
-    padding: 32px 16px 32px 16px;
+    /*padding: 32px 16px 32px 16px;*/
     background-color: #FFFFFF;
+    padding: 32px 0;
 }
 
 .team-title {
@@ -319,7 +332,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 24px;
+    gap: 24px;
     margin-top: 8px;
 }
 
@@ -333,10 +346,13 @@ img {
     background-color: #4D5AE5;
 }
 
+.social-list-icon {
+    fill: var(--primary-background-color-light);
+}
+
 .social-list-link:hover, .social-list-link:focus {
 background-color: #404BBF;
 }
-
 
 /*=================== customers ===================*/
 
@@ -367,7 +383,9 @@ background-color: #404BBF;
     height: 88px;
     color: #8E8F99;
     border: 1px solid #8E8F99;
+    border-radius: 4px
 }
+
 .team-customers-icon{
     fill:currentColor;
 }
@@ -383,7 +401,11 @@ background-color: #404BBF;
 
 .footer-container {
     display: flex;
-    
+    align-items: baseline
+}
+
+.footer-box-left {
+    margin-right: 120px;
 }
 
 .logo-footer {
@@ -409,14 +431,14 @@ background-color: #404BBF;
     letter-spacing: 0.02em;
     color: var(--primary-background-color-light);
     max-width: 264px;
-    margin-top: 16px;
+    margin-bottom: 16px;
 }
 
 /*icon*/
 
-.footer-box-social {
+/* .footer-box-social {
     margin-left: 120px;
-}
+} */
 
 .footer-text-social {
     font-weight: 500;
@@ -429,7 +451,7 @@ background-color: #404BBF;
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 16px;
+    gap: 16px;
     margin-top: 16px;
 }
 
@@ -446,6 +468,10 @@ background-color: #404BBF;
 .footer-social-list-link:hover,
 .footer-social-list-link:focus {
     background-color: #31D0AA;
+}
+
+.footer-social-list-icon {
+    fill: var(--primary-background-color-light);
 }
 
 /*======================== portfolio ========================*/
@@ -493,6 +519,7 @@ background-color: #404BBF;
 }
 
 .service-item {
+    display: block;
     flex-basis: calc((100% - 48px) / 3);
     border-radius: 0px 0px 4px 4px;
     
