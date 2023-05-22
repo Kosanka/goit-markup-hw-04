@@ -206,19 +206,24 @@ img {
 
 .advantages-picture-list {
     display: flex;
+    justify-content: center;
     gap: 24px;
+    margin-bottom: 8px;
     
 }
+.advantages-picture-icon{
+margin: 24px 100px;
+}
 
-.advantages-picture-item{
+/* .advantages-picture-item{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* width: 264px; */
+    width: 264px;
     height: 112px;
     background-color: #F4F4FD;
     flex-basis: calc((100% - 94px) / 4);
-}
+} */
 /**/
 
 .advantages-list{
