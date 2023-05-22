@@ -365,12 +365,18 @@ background-color: #404BBF;
     align-items: center;
     width: 168px;
     height: 88px;
+    color: #8E8F99;
     border: 1px solid #8E8F99;
 }
+.team-customers-icon{
+    fill:currentColor;
+}
 
-.team-customers-icon:hover,
-.team-customers-icon:focus {
-    fill: #404BBF;
+
+.team-customers-link:hover,
+.team-customers-link:focus {
+    color: #404BBF;
+    border-color: #404BBF;
 }
 
 /*========================= footer =========================*/
@@ -381,7 +387,6 @@ background-color: #404BBF;
 }
 
 .logo-footer {
-
     margin-bottom: 16px;
  }
 
